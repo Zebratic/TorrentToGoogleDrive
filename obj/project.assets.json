@@ -1,0 +1,201 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "APF/1.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Partfiles.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Partfiles.dll": {}
+        }
+      },
+      "BencodeNET/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "5.0.1"
+        },
+        "compile": {
+          "lib/net5.0/BencodeNET.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/BencodeNET.dll": {}
+        }
+      },
+      "BitSwarm/2.4.6": {
+        "type": "package",
+        "dependencies": {
+          "APF": "1.3.3",
+          "BencodeNET": "4.0.0"
+        },
+        "compile": {
+          "lib/net6.0/BitSwarmLib.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/BitSwarmLib.dll": {}
+        }
+      },
+      "System.IO.Pipelines/5.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.IO.Pipelines.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "APF/1.3.3": {
+      "sha512": "kVWyP7py8TEEu5Poc1rXD23rLSWORE3ZhxkA2n3rwMW8/nur4zc2XrCYWYVFCyOuTv58yL0WXsG2ejggG2ezCg==",
+      "type": "package",
+      "path": "apf/1.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "apf.1.3.3.nupkg.sha512",
+        "apf.nuspec",
+        "lib/net5.0/Partfiles.dll",
+        "lib/net5.0/Partfiles.xml",
+        "lib/net6.0/Partfiles.dll",
+        "lib/net6.0/Partfiles.xml",
+        "lib/netstandard2.0/Partfiles.dll",
+        "lib/netstandard2.0/Partfiles.xml"
+      ]
+    },
+    "BencodeNET/4.0.0": {
+      "sha512": "dsgswftoaNKuKdOiRz7pTpk0RyuPHOWrAdc5/ohP3YOfAVzosKrHY8qZZBdjX/fHa6SA63wp62K6wQX93uuyFw==",
+      "type": "package",
+      "path": "bencodenet/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bencodenet.4.0.0.nupkg.sha512",
+        "bencodenet.nuspec",
+        "icon.png",
+        "lib/net5.0/BencodeNET.dll",
+        "lib/net5.0/BencodeNET.xml",
+        "lib/netcoreapp2.1/BencodeNET.dll",
+        "lib/netcoreapp2.1/BencodeNET.xml",
+        "lib/netstandard2.0/BencodeNET.dll",
+        "lib/netstandard2.0/BencodeNET.xml",
+        "lib/netstandard2.1/BencodeNET.dll",
+        "lib/netstandard2.1/BencodeNET.xml"
+      ]
+    },
+    "BitSwarm/2.4.6": {
+      "sha512": "FDlmYiQVMbj+OrZlcv8XhbHxB0QI4KP4IEwsDT/T/7EOoCzjgSXUDSVaReMzh54WNDqPySOdr+ah3R9Teg3Ong==",
+      "type": "package",
+      "path": "bitswarm/2.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "BitSwarm.png",
+        "bitswarm.2.4.6.nupkg.sha512",
+        "bitswarm.nuspec",
+        "lib/net5.0/BitSwarmLib.dll",
+        "lib/net5.0/BitSwarmLib.xml",
+        "lib/net6.0/BitSwarmLib.dll",
+        "lib/net6.0/BitSwarmLib.xml",
+        "lib/netstandard2.0/BitSwarmLib.dll",
+        "lib/netstandard2.0/BitSwarmLib.xml"
+      ]
+    },
+    "System.IO.Pipelines/5.0.1": {
+      "sha512": "qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
+      "type": "package",
+      "path": "system.io.pipelines/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.IO.Pipelines.dll",
+        "lib/net461/System.IO.Pipelines.xml",
+        "lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.0/System.IO.Pipelines.xml",
+        "lib/netstandard1.3/System.IO.Pipelines.dll",
+        "lib/netstandard1.3/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "ref/netcoreapp2.0/System.IO.Pipelines.dll",
+        "ref/netcoreapp2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.5.0.1.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "BitSwarm >= 2.4.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\alex7\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\alex7\\source\\repos\\TorrentToGoogleDrive\\TorrentToGoogleDrive\\TorrentToGoogleDrive.csproj",
+      "projectName": "TorrentToGoogleDrive",
+      "projectPath": "C:\\Users\\alex7\\source\\repos\\TorrentToGoogleDrive\\TorrentToGoogleDrive\\TorrentToGoogleDrive.csproj",
+      "packagesPath": "C:\\Users\\alex7\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alex7\\source\\repos\\TorrentToGoogleDrive\\TorrentToGoogleDrive\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\alex7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "BitSwarm": {
+            "target": "Package",
+            "version": "[2.4.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

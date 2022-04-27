@@ -1,0 +1,93 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TorrentToGoogleDrive/1.0.0": {
+        "dependencies": {
+          "BitSwarm": "2.4.6"
+        },
+        "runtime": {
+          "TorrentToGoogleDrive.dll": {}
+        }
+      },
+      "APF/1.3.3": {
+        "runtime": {
+          "lib/net6.0/Partfiles.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      },
+      "BencodeNET/4.0.0": {
+        "dependencies": {
+          "System.IO.Pipelines": "5.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/BencodeNET.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BitSwarm/2.4.6": {
+        "dependencies": {
+          "APF": "1.3.3",
+          "BencodeNET": "4.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/BitSwarmLib.dll": {
+            "assemblyVersion": "2.4.6.0",
+            "fileVersion": "2.4.6.0"
+          }
+        }
+      },
+      "System.IO.Pipelines/5.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.120.57516"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TorrentToGoogleDrive/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "APF/1.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kVWyP7py8TEEu5Poc1rXD23rLSWORE3ZhxkA2n3rwMW8/nur4zc2XrCYWYVFCyOuTv58yL0WXsG2ejggG2ezCg==",
+      "path": "apf/1.3.3",
+      "hashPath": "apf.1.3.3.nupkg.sha512"
+    },
+    "BencodeNET/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dsgswftoaNKuKdOiRz7pTpk0RyuPHOWrAdc5/ohP3YOfAVzosKrHY8qZZBdjX/fHa6SA63wp62K6wQX93uuyFw==",
+      "path": "bencodenet/4.0.0",
+      "hashPath": "bencodenet.4.0.0.nupkg.sha512"
+    },
+    "BitSwarm/2.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FDlmYiQVMbj+OrZlcv8XhbHxB0QI4KP4IEwsDT/T/7EOoCzjgSXUDSVaReMzh54WNDqPySOdr+ah3R9Teg3Ong==",
+      "path": "bitswarm/2.4.6",
+      "hashPath": "bitswarm.2.4.6.nupkg.sha512"
+    },
+    "System.IO.Pipelines/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
+      "path": "system.io.pipelines/5.0.1",
+      "hashPath": "system.io.pipelines.5.0.1.nupkg.sha512"
+    }
+  }
+}

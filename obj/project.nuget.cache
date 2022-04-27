@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "asjIuRgX8qpx0l0eQyPG8ZbmzlTnHwJFwnpxOFe5g6Y/zXyJlS09+332gU1cGhYO8gq0Z64Uda75yJ/3rJSyLg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alex7\\source\\repos\\TorrentToGoogleDrive\\TorrentToGoogleDrive\\TorrentToGoogleDrive.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alex7\\.nuget\\packages\\apf\\1.3.3\\apf.1.3.3.nupkg.sha512",
+    "C:\\Users\\alex7\\.nuget\\packages\\bencodenet\\4.0.0\\bencodenet.4.0.0.nupkg.sha512",
+    "C:\\Users\\alex7\\.nuget\\packages\\bitswarm\\2.4.6\\bitswarm.2.4.6.nupkg.sha512",
+    "C:\\Users\\alex7\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
